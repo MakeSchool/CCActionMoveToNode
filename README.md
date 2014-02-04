@@ -2,7 +2,7 @@
 
 This action can be applied to any Node to let it move to or follow another Node. This action behaves correctly even when the target Node is moving.
 
-![image](preview.png)
+![image](Preview.png)
 
 #Installation
 Simply grab `CCActionMoveToNode.m` and `CCActionMoveToNode.h` and add them to your project.
