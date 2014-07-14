@@ -171,7 +171,7 @@
         newPos = endPosition;
     }
     
-	[_target setPosition: newPos];
+	[(CCNode *)_target setPosition: newPos];
 }
 
 - (BOOL) isDone
