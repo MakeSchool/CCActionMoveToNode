@@ -150,7 +150,7 @@
     CGFloat moveByLength = ccpLength(moveBy);
     CGFloat distanceTargetLength = ccpLength(positionDelta);
     
-    if (moveByLength > distanceTargetLength) {
+    if (moveByLength > distanceTargetLength || isnan(moveByLength) {
         // if this isn't an infinite action, it is completed, because we reached the target position
         if (!_followInfinite) {
             _done = YES;
